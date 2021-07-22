@@ -1,66 +1,61 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <title>My First Webpage</title> 
-        <meta charset="UTF-8"> 
-        <meta name="description" content="DS ALGO Website"> 
-        <link rel="stylesheet" href="css/main.css">
-   </head>
-    <body>	
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/main.css" >
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Your Logo</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
 
+    <section class="home">
+    </section>
+  
+    <footer>
 
-
-
-<h1 class="text-center">Example 9 - Version 2 Centered (Using flexbox)</h1>
-<p class="text-center lead">
-  Resize the browser width to view the effect!
-</p>
-
-
-
-
-
-
-
-
-<div class="container">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar9">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      
-      <div class="brand-centered">
-      <a class="navbar-brand" href="http://disputebills.com"><img style="margin-right: 10px; padding: 0;" src="https://res.cloudinary.com/disputebills/image/upload/v1462474206/blue-mark_cnzgry.png" alt="Dispute Bills">Dispute Bills
-      </a>
-      </div>
-      
-      <div id="navbar9" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-left">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+        <ul>
+            <li>link1</li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-    <!--/.container-fluid -->
-  </nav>
-</div>
+    </footer>
 
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
-        <script src="script.js"></script>
-    </body> 
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+      </body>
 </html>
-
-    
