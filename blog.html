@@ -1,47 +1,124 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <title>Blog Page</title> 
-        <meta charset="UTF-8"> 
-        <meta name="description" content="DS ALGO Website"> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog page</title>
         <link rel="stylesheet" href="css/blog.css">
         <header>
             <hr color="black">
             <div class="header">
-                <nav>
+                <nav >
                     <img src="#" alt="NA">
-                    <a href="#" id="nav" style="margin-left: 50%;">Home</a>
-                    <a href="#"id="nav">Blogs</a>
-                    <a href="#"id="nav">Contact us</a>
-                    <a href="#"id="nav">About us</a>
+                    <a href="#" id="nav" style="margin-left: 50%;"> <strong>Home</strong>  </a>
+                    <a href="#"id="nav"> <strong>Blogs</strong> </a>
+                    <a href="#"id="nav"> <strong>About us</strong> </a>
+                    <a href="#"id="nav"> <strong>Contact us</strong> </a>
                 </nav>
             </div>
             <hr color="black">
         </header>
-    </head> 
-    <body> 
-        <section class="section">
-            <h1 id="top-head">Greedy Algorithm</h1>
-            <span > <strong>Date:-</strong> 1:32 PM - 25 July 2021</span>
-            <!-- <span class="media"> <strong>Date:-</strong> twiter , facebook</span> -->
-            
-            
-
-        </section>
-        <aside class="aside">
-            <div >
-                <h1 >Trending Topics</h1>
-            </div>
-        </aside>
+    </head>
+    <body>
         
-    <footer>
-        <hr color="black">
-        <div id="footer">
-            <h4>&#169;copyright</h4>
-        </div>
-        <hr color="black">
-    </footer>  
-    </body> 
-</html>
+        <div style="overflow:auto">
+                <article class="article">
+                    <h1 id="head_for_topic">Greedy Algorithm</h1>
+                    <span> <strong>Date:-</strong> 25 july 2021</span>
+                    
+                        <img src="images/What-is-a-Greedy-Algorithm.jpg" alt="" id="content_image" >
+                    
+                    
+                    <div class="content">
+                        <p>A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem. Greedy algorithms are quite successful in some problems, such as Huffman encoding which is used to compress data, or Dijkstra's algorithm, which is used to find the shortest path through a graph.
 
+                            However, in many problems, a greedy strategy does not produce an optimal solution. For example, in the animation below, the greedy algorithm seeks to find the path with the largest sum. It does this by selecting the largest available number at each step. The greedy algorithm fails to find the largest sum, however, because it makes decisions based only on the information it has at any one step, without regard to the overall problem.</p>
+                    </div>
+                    <div class="form">
+                        <div style="text-align: center;">
+                        
+                           <p > Comments</p>
+                           <hr color="black">    
+                        
+                        </div>
+                        <form action="contact.php" method="POST" enctype="multipart/form-data">
+                            <p>
+                                  Your Name: <br>
+                                  <input type="text" name="name" placeholder="Nitish kumar">
+                        </p>
+                        <p>
+                            Your Email: <br>
+                            <input type="email" name="email" placeholder="nkt@gmail.com">
+                        </p>
+            
+                        
+                        <p>
+                            Comment:<br>
+                            <textarea type="text" name="message" placeholder="Any thing that you want:"></textarea>
+                        </p>
+                        
+                           
+                            <input type="submit"  value="send" > 
+                            <input type="reset"   value="Reset">
+                        </form>
+               </div>
+        
+                </article>
+                    
+                    
+                
+               
+                
+                 <aside class="aside">
+                    <h1 style="text-align: center;margin-bottom: 5px;"><u>Trending Topics</u></h1>
+                    <div id="for_trending_image1">
+                        <p>Box for image1</p>
+                    </div>
+                    <h1 id="head_for_trending">Heading 1</h1>
+                    <div id="for_trending_image1">
+                        <p>Box for image2</p>
+                    </div>
+                    <h1 id="head_for_trending">Heading 2</h1>
+                    <h1 style="text-align: center;margin-bottom: 5px;"><u>Related Topics</u></h1>
+                    <h1 style="text-align: center;margin-bottom: 5px;background-color: cornflowerblue;border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);">Heading 1</h1>
+                    <h1 style="text-align: center;margin-bottom: 5px;background-color: cornflowerblue;border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);">Heading 2</h1>
+                    <h1 style="text-align: center;margin-bottom: 5px;background-color: cornflowerblue;border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);">Heading 3</h1>
+                    <img src="images/IMG_20210227_211021_247 (2).jpg" alt="NA" width="40%" style="border-radius: 50%;align-items: center;position: relative;left: 28%;">
+                    <h4 style="font-family: cursive;text-align: center;text-decoration: underline;margin-bottom: 5px;">Nitish Kumar </h4>
+                    <div style="background-color: red ;text-align: center;font-family: fantasy;border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);">
+                       For Social Media
+                    </div>
+                    
+        
+                 </aside>
+                </div>
+                
+
+                  
+                    <hr color="black">
+                    <footer id="footer">
+                        <div style="font-weight: 800;">
+                            <strong>&#169;Copyright</strong>
+                        </div>
+                        
+                    </footer>
+                    <hr color="black"> 
+
+                  
+                    
+                 
+            
+             
+
+        
+        
+
+            
+        
+
+        
+        
+           
+        
     
+         
+    </body>
+</html>
