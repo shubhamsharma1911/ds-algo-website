@@ -1,12 +1,13 @@
 * {
     margin:0px;
 }
+
 /* Start of Header  */
 .header{
     background-color: white;
     padding: 25px;
     font-weight: 500;
-    
+    font-family: lobster;
 }
 #nav{
     margin-right: 15px;
@@ -36,6 +37,7 @@
     border-radius: 5px;
     background-color:cornflowerblue;
     width: 100%;
+    font-family: lobster;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 9px 6px rgba(0,0,0,0.23);
 }
@@ -43,10 +45,12 @@
     width: 100%;
     background-color:white;
     margin-bottom: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align:justify ;
     color: black;
     border-radius: 10px;
     padding: 5px;
+    text-shadow: blue;
     border-style: solid;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 9px 6px rgba(0,0,0,0.23);
 }
@@ -91,6 +95,7 @@ input[type="reset"]{
 }
 textarea{
     width: 100%;
+    
     border-radius: 5px;
 }
 /* End of Article  Part */
@@ -111,6 +116,7 @@ textarea{
 #head_for_trending{
     text-align: center;
     padding: 2px;
+    font-family: lobster;
     background-color: cornflowerblue;
     width: 100%;
     margin-bottom: 5px;
@@ -118,12 +124,26 @@ textarea{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);
 }
 #for_trending_image1{
-    padding: 30px;
-    width:auto;
-    background-color: gray;
-    text-align: center;
+    object-fit:cover;
+    width: 290px;
+    height:100px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-color: blue;
     border-radius: 5px;
-    margin-bottom: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 7px 6px rgba(0,0,0,0.23);
+    
+
+}
+#for_trending_image2{
+    object-fit:cover;
+    width: 290px;
+    height:100px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 7px 6px rgba(0,0,0,0.23);
     
 
 }
@@ -133,6 +153,6 @@ textarea{
     background-color: white;
     text-align: center;
     padding: 25px;
-    
+    font-family: lobster;
 }
 /* End of footer part */
