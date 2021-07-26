@@ -5,22 +5,22 @@
         <link rel="stylesheet" href="css/blog.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
         <header>
-            <hr color="black">
+            <hr  style="border-top: 1px solid black;">
             <div class="header">
                 <nav >
-                    <img src="#" alt="NA">
-                    <a href="#" id="nav" style="margin-left: 60%;"> <strong>Home</strong>  </a>
+                    <img src="images/logo.png" alt="NA" style="object-fit:fill;width:70px;height: 40px;padding: 0px;margin: 0px;">
+                    <a href="#" id="nav" style="margin-left: 50%;"> <strong>Home</strong>  </a>
                     <a href="#"id="nav"> <strong>Blogs</strong> </a>
                     <a href="#"id="nav"> <strong>About us</strong> </a>
                     <a href="#"id="nav"> <strong>Contact us</strong> </a>
                 </nav>
             </div>
-            <hr color="black">
+            <hr style="border-top: 1px solid black;">
         </header>
     </head>
     <body>
         
-        <div style="overflow:auto">
+        <div style="overflow:auto;width: 100%;">
                 <article class="article">
                     <h1 id="head_for_topic">Greedy Algorithm</h1>
                     <span> <strong>Date:-</strong> 25 july 2021</span>
@@ -43,17 +43,17 @@
                         <form action="contact.php" method="POST" enctype="multipart/form-data">
                             <p>
                                   Your Name: <br>
-                                  <input type="text" name="name" placeholder="Nitish kumar">
+                                  <input type="text" name="name" placeholder="Nitish kumar"  required>
                         </p>
                         <p>
                             Your Email: <br>
-                            <input type="email" name="email" placeholder="nkt@gmail.com">
+                            <input type="email" name="email" placeholder="nkt@gmail.com" required >
                         </p>
             
                         
                         <p>
                             Comment:<br>
-                            <textarea type="text" name="message" placeholder="Any thing that you want:"></textarea>
+                            <textarea type="text" name="message" placeholder="Any thing that you want:" required ></textarea>
                         </p>
                         
                            
@@ -90,7 +90,29 @@
                     
         
                  </aside>
+                 
+                <div class="explore">
+                    <hr color="black">
+                    <p id="explore_heading">Explore More</p>
+                    <div  id="explore_image1">
+                        <img src="images\image2.jpg" alt="" id="explore_image">
+                        
+                        <h4 style="text-align: center;padding: 5px; font-family:lobster;margin-bottom: 5px;background-color: cornflowerblue;border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);">Heading 1</h4>
+                     
+                    </div>
+                    <div id="explore_image2">
+                        <img src="images\image2.jpg" alt="" id="explore_image">
+                        
+                        <h4 style="text-align: center;padding: 5px; font-family:lobster;margin-bottom: 5px;background-color: cornflowerblue;border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);">Heading 2</h4>
+
+                    </div>
+                    <div id="explore_image3">
+                        <img src="images\image2.jpg" alt="" id="explore_image">
+                        
+                        <h4 style="text-align: center;padding: 5px; font-family:lobster;margin-bottom: 5px;background-color: cornflowerblue;border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 8px rgba(0,0,0,0.23);">Heading 3</h4>
+                    </div>
                 </div>
+        </div>
                 
 
                   
